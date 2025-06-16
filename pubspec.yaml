@@ -1,0 +1,191 @@
+name: nfunayo_mini
+description: "Expense tracking app."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  go_router: ^6.1.0
+
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.67.0  # For charting
+  intl: ^0.18.0  # Date formatting
+  logger: ^1.1.0  # Logging
+  audioplayers: ^6.1.0  # Audio playback
+  image_picker: ^0.8.4+8  # Image picker
+  shared_preferences: ^2.0.15  # Local storage
+  provider: ^6.0.5  # State management
+  http: ^1.3.0  # Networking
+  url_launcher: ^6.1.7  # Opening URLs
+  share_plus: ^7.2.1  # Use the latest version
+  introduction_screen: ^3.1.2
+
+  # ✅ Firebase packages
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.4.5
+  google_sign_in: ^5.4.0
+  firebase_auth_web: ^5.8.13
+  firebase_analytics: ^11.4.5
+
+  lottie: ^2.3.2 # Add this line
+  flutter_local_notifications: ^17.1.0
+  # flutter_app_badger: 1.5.0
+  cached_network_image: ^3.2.3
+  timezone: ^0.9.2  # ✅ Required for scheduled notifications
+  flutter_speed_dial: ^7.0.0 # Use the latest version
+  percent_indicator: ^4.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  # Updated version
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/log.png"  # Path to your log.png file
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profile.png
+    - assets/logos/log.png
+    - assets/logos/smk.png
+    - assets/images/user.png
+    - assets/images/panda.png
+    - assets/logos/google_logo.png
+    - assets/animations/piechart.json 
+    - assets/animations/success.json
+    - assets/animations/add_transaction.json
+    - assets/animations/dashboard.json
+    - assets/animations/profile.json
+    - assets/animations/menu.json     
+    - assets/animations/add.json
+    - assets/animations/welcome_guy.json
+    - assets/animations/tick.json
+    - assets/animations/sad.json
+    # Avatars
+    - assets/avatars/avatar1.png
+    - assets/avatars/avatar2.png
+    - assets/avatars/avatar3.png
+    - assets/avatars/avatar4.png
+    - assets/avatars/avatar5.png
+    - assets/avatars/avatar6.png
+    - assets/avatars/avatar7.png
+    - assets/avatars/avatar8.png
+    - assets/avatars/avatar9.png
+    - assets/animations/avatarx.json
+    
+    - assets/images/lity.png
+    - assets/images/dime.png
+    - assets/images/entrepreneurship.png
+    - assets/images/avdebt.png
+    - assets/images/budget.png
+    - assets/images/cracked.png
+    - assets/images/panda.png
+    - assets/images/apple.png
+    - assets/images/book.png
+    - assets/images/hoe.png
+    - assets/images/toycar.png
+    - assets/images/tractor.png
+    - assets/images/watering.png
+    - assets/images/wateringcan.png
+    - assets/images/cow.png
+    - assets/images/harvester.png
+    - assets/images/car-wash.png
+    - assets/images/clean-room.png
+    - assets/images/trophy.png
+    - assets/images/farming.png
+    - assets/images/health.png
+    - assets/images/realestate.png
+    - assets/images/employment.png
+    - assets/images/personal.png
+    - assets/images/gem.png
+    - assets/images/hard-work.png
+    - assets/images/hand_pointer.png
+    - assets/images/litycard.png
+    - assets/images/trivia.png
+    - assets/images/more.png
+    - assets/images/tution.png
+    - assets/images/video_game.png
+    - assets/images/iphone.png
+    - assets/images/movie_ticket.png
+    - assets/images/stock.png
+    - assets/images/piggybank.png
+    - assets/images/bank.png
+    - assets/images/laptop.png
+    - assets/images/luxury_car.png
+    - assets/images/gold_watch.png
+    - assets/images/designer.png
+    - assets/images/rice_bag.png
+   
+    # **Card Images**
+    - assets/images/coupon.png
+    - assets/images/donation.png
+    - assets/images/freelance.png
+    - assets/images/gift.png
+    - assets/images/impulse.png
+    - assets/images/insurance.png
+    - assets/images/job.png
+    - assets/images/land.png
+    - assets/images/loan.png
+    - assets/images/medical.png
+    - assets/images/money-bag.png
+    - assets/images/save.png
+    - assets/images/scholarship.png
+    - assets/images/store.png
+    - assets/images/tax.png
+    - assets/images/theft.png
+
+    # **Animation Assets**
+    - assets/animations/animation.gif
+    - assets/animations/animation.json
+    - assets/animations/loading.json
+    - assets/animations/treasure.json
+    - assets/animations/trophy.json
+    - assets/animations/piggy_money.json
+    - assets/animations/lost.json
+
+
+
+    # **Essentials**
+    - assets/images/rice_bag.png
+    - assets/images/tution.png
+    - assets/images/insurance.png
+    - assets/images/rent.png
+
+    # **Entertainment (Wants)**
+    - assets/images/video_game.png
+    - assets/images/iphone.png
+    - assets/images/movie_ticket.png
+
+    # **Investments (Financial Growth)**
+    - assets/images/hard-work.png
+    - assets/images/stock.png
+    - assets/images/piggybank.png
+    - assets/images/bank.png
+
+    # **Productivity Tools**
+    - assets/images/laptop.png
+    - assets/images/tractor.png
+    - assets/images/wateringcan.png
+
+    # **Luxury Items (High-End Wants)**
+    - assets/images/luxury_car.png
+    - assets/images/gold_watch.png
+    - assets/images/designer.png
+
+
