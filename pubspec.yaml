@@ -35,7 +35,7 @@ dependencies:
   firebase_storage: ^12.4.5
   google_sign_in: ^5.4.0
   firebase_auth_web: ^5.8.13
-  firebase_analytics: ^11.4.5
+  firebase_analytics: ^11.4.4
 
   lottie: ^2.3.2 # Add this line
   flutter_local_notifications: ^17.1.0
